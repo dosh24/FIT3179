@@ -16,7 +16,7 @@
         "data": {
           "url": "https://raw.githubusercontent.com/dosh24/FIT3179/main/data/country_c.csv"
         },
-        "key": "country",
+        "key": "country_txt",
         "fields": ["count"]
       }
     },
