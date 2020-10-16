@@ -4,10 +4,10 @@
   "width": 800,
   "height": 600,
   "data": {
-    "url": "https://raw.githubusercontent.com/dosh24/FIT3179/main/js/custom_topon.topojson",
+    "url": "https://raw.githubusercontent.com/dosh24/FIT3179/main/js/ne_110m.topojson",
     "format": {
           "type": "topojson",
-          "feature": "custom_topon"
+          "feature": "ne_110m"
         }
   },
   "transform": [{
