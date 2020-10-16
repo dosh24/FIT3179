@@ -29,7 +29,13 @@
     "color": {
       "field": "count",
       "type": "quantitative",
-      "scale": {"type": "log"}
+      "scale": {
+        
+ "type": "threshold",
+ "domain": [50, 500, 5000,10000],
+ "range": ["#fef0d9", "#fdd49e", "#fdbb84", "#fc8d59","#e34a33","#b30000"]
+
+      }
     },
     "tooltip": [
       {"field": "properties.NAME", "type": "nominal", "title": "Country"},
