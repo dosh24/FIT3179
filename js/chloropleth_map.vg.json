@@ -4,13 +4,14 @@
   "width": 800,
   "height": 600,
   "data": {
-    "url": "https://raw.githubusercontent.com/dosh24/FIT3179/main/js/ne_110m.topojson",
+    "url": "https://raw.githubusercontent.com/KaneSec/vega_lite/main/3_choropleth_map/js/ne_110m_admin_0_countries.topojson",
     "format": {
           "type": "topojson",
-          "feature": "ne_110m"
+          "feature": "ne_110m_admin_0_countries"
         }
   },
-  "transform": [{
+  "transform": [
+    {
       "lookup": "properties.NAME",
       "from": {
         "data": {
@@ -22,15 +23,11 @@
     },
     {"calculate": "datum.count + 0.1", "as": "Count"}
   ],
-  "projection": {
-    "type": "equirectangular"
-  },
-  "mark": {
-    "type": "geoshape"
-    },
+  "projection": {"type": "equirectangular"},
+  "mark": {"type": "geoshape"},
   "encoding": {
     "color": {
-      "field": "Number of Terror Attacks",
+      "field": "count",
       "type": "quantitative",
       "scale": {"type": "log"}
     },
@@ -39,5 +36,4 @@
       {"field": "count", "type": "quantitative"}
     ]
   }
-
 }
