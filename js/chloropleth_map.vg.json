@@ -1,14 +1,11 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
-  "title": "Terrorist Attacks",
+  "title": "Number of Terrorist Attacks in each Country Since 1970",
   "width": 800,
   "height": 600,
   "data": {
     "url": "https://raw.githubusercontent.com/KaneSec/vega_lite/main/3_choropleth_map/js/ne_110m_admin_0_countries.topojson",
-    "format": {
-          "type": "topojson",
-          "feature": "ne_110m_admin_0_countries"
-        }
+    "format": {"type": "topojson", "feature": "ne_110m_admin_0_countries"}
   },
   "transform": [
     {
@@ -30,11 +27,16 @@
       "field": "count",
       "type": "quantitative",
       "scale": {
-        
- "type": "threshold",
- "domain": [50, 500, 5000,10000],
- "range": ["#fef0d9", "#fdd49e", "#fdbb84", "#fc8d59","#e34a33","#b30000"]
-
+        "type": "threshold",
+        "domain": [100, 1000, 5000, 10000],
+        "range": [
+          "#ffffb2",
+          "#fed976",
+          "#feb24c",
+          "#fd8d3c",
+          "#f03b20",
+          "#bd0026"
+        ]
       }
     },
     "tooltip": [
