@@ -16,18 +16,18 @@
 <div id="choropleth_map"></div>
 
 <h2>This is the second visualisation</h2>
-<div id="scatter_plot"></div>
+<div id="line_chart"></div>
 
 <script type="text/javascript">
 
   var spec2 = "https://raw.githubusercontent.com/dosh24/FIT3179/main/js/chloropleth_map.vg.json";
-  var vis2 = "https://raw.githubusercontent.com/dosh24/FIT3179/main/week10hw/js/scatter_plot.vg.json";
+  var vis2 = "https://raw.githubusercontent.com/dosh24/FIT3179/main/js/linechart";
   
   vegaEmbed('#choropleth_map', spec2).then(function(result) {
     // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
   }).catch(console.error);
   
-  vegaEmbed('#scatter_plot', vis2).then(function(result) {
+  vegaEmbed('#line_chart', vis2).then(function(result) {
     // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
   }).catch(console.error);
 </script>
