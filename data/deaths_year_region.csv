@@ -1,0 +1,530 @@
+"","region_txt","iyear","fatalities"
+"1","Australasia & Oceania",1970,0
+"2","Australasia & Oceania",1971,0
+"3","Australasia & Oceania",1972,1
+"4","Australasia & Oceania",1973,0
+"5","Australasia & Oceania",1974,0
+"6","Australasia & Oceania",1978,2
+"7","Australasia & Oceania",1979,0
+"8","Australasia & Oceania",1980,2
+"9","Australasia & Oceania",1981,1
+"10","Australasia & Oceania",1982,0
+"11","Australasia & Oceania",1984,12
+"12","Australasia & Oceania",1985,0
+"13","Australasia & Oceania",1986,1
+"14","Australasia & Oceania",1987,0
+"15","Australasia & Oceania",1988,22
+"16","Australasia & Oceania",1989,15
+"17","Australasia & Oceania",1990,12
+"18","Australasia & Oceania",1991,3
+"19","Australasia & Oceania",1992,9
+"20","Australasia & Oceania",1994,20
+"21","Australasia & Oceania",1995,6
+"22","Australasia & Oceania",1996,23
+"23","Australasia & Oceania",1997,0
+"24","Australasia & Oceania",1998,0
+"25","Australasia & Oceania",1999,2
+"26","Australasia & Oceania",2000,7
+"27","Australasia & Oceania",2001,0
+"28","Australasia & Oceania",2002,1
+"29","Australasia & Oceania",2003,1
+"30","Australasia & Oceania",2006,0
+"31","Australasia & Oceania",2007,0
+"32","Australasia & Oceania",2008,0
+"33","Australasia & Oceania",2009,0
+"34","Australasia & Oceania",2010,0
+"35","Australasia & Oceania",2013,0
+"36","Australasia & Oceania",2014,4
+"37","Australasia & Oceania",2015,2
+"38","Australasia & Oceania",2016,0
+"39","Australasia & Oceania",2017,4
+"40","Central America & Caribbean",1970,3
+"41","Central America & Caribbean",1971,0
+"42","Central America & Caribbean",1972,0
+"43","Central America & Caribbean",1973,0
+"44","Central America & Caribbean",1974,0
+"45","Central America & Caribbean",1975,36
+"46","Central America & Caribbean",1976,84
+"47","Central America & Caribbean",1977,36
+"48","Central America & Caribbean",1978,164
+"49","Central America & Caribbean",1979,536
+"50","Central America & Caribbean",1980,2976
+"51","Central America & Caribbean",1981,3151
+"52","Central America & Caribbean",1982,3398
+"53","Central America & Caribbean",1983,5554
+"54","Central America & Caribbean",1984,5112
+"55","Central America & Caribbean",1985,2734
+"56","Central America & Caribbean",1986,755
+"57","Central America & Caribbean",1987,1214
+"58","Central America & Caribbean",1988,739
+"59","Central America & Caribbean",1989,452
+"60","Central America & Caribbean",1990,406
+"61","Central America & Caribbean",1991,714
+"62","Central America & Caribbean",1992,112
+"63","Central America & Caribbean",1994,184
+"64","Central America & Caribbean",1995,81
+"65","Central America & Caribbean",1996,88
+"66","Central America & Caribbean",1997,73
+"67","Central America & Caribbean",1998,0
+"68","Central America & Caribbean",1999,6
+"69","Central America & Caribbean",2000,11
+"70","Central America & Caribbean",2001,2
+"71","Central America & Caribbean",2002,0
+"72","Central America & Caribbean",2003,5
+"73","Central America & Caribbean",2004,38
+"74","Central America & Caribbean",2005,1
+"75","Central America & Caribbean",2006,7
+"76","Central America & Caribbean",2007,2
+"77","Central America & Caribbean",2009,3
+"78","Central America & Caribbean",2010,0
+"79","Central America & Caribbean",2011,2
+"80","Central America & Caribbean",2012,2
+"81","Central America & Caribbean",2013,9
+"82","Central America & Caribbean",2014,5
+"83","Central America & Caribbean",2015,0
+"84","Central America & Caribbean",2016,9
+"85","Central America & Caribbean",2017,4
+"86","Central Asia",1991,28
+"87","Central Asia",1992,320
+"88","Central Asia",1994,122
+"89","Central Asia",1995,94
+"90","Central Asia",1996,56
+"91","Central Asia",1997,81
+"92","Central Asia",1998,61
+"93","Central Asia",1999,35
+"94","Central Asia",2000,18
+"95","Central Asia",2001,16
+"96","Central Asia",2002,3
+"97","Central Asia",2003,1
+"98","Central Asia",2004,36
+"99","Central Asia",2005,18
+"100","Central Asia",2006,6
+"101","Central Asia",2007,1
+"102","Central Asia",2008,20
+"103","Central Asia",2009,10
+"104","Central Asia",2010,8
+"105","Central Asia",2011,13
+"106","Central Asia",2012,6
+"107","Central Asia",2013,2
+"108","Central Asia",2014,5
+"109","Central Asia",2015,13
+"110","Central Asia",2016,21
+"111","Central Asia",2017,6
+"112","East Asia",1970,0
+"113","East Asia",1971,25
+"114","East Asia",1973,0
+"115","East Asia",1974,1
+"116","East Asia",1975,0
+"117","East Asia",1976,2
+"118","East Asia",1977,0
+"119","East Asia",1978,4
+"120","East Asia",1979,5
+"121","East Asia",1980,0
+"122","East Asia",1981,0
+"123","East Asia",1982,1
+"124","East Asia",1983,3
+"125","East Asia",1984,0
+"126","East Asia",1985,2
+"127","East Asia",1986,8
+"128","East Asia",1987,1
+"129","East Asia",1988,0
+"130","East Asia",1989,22
+"131","East Asia",1990,4
+"132","East Asia",1991,8
+"133","East Asia",1992,27
+"134","East Asia",1994,34
+"135","East Asia",1995,21
+"136","East Asia",1996,32
+"137","East Asia",1997,38
+"138","East Asia",1998,50
+"139","East Asia",1999,5
+"140","East Asia",2000,1
+"141","East Asia",2001,9
+"142","East Asia",2002,1
+"143","East Asia",2003,1
+"144","East Asia",2004,4
+"145","East Asia",2005,12
+"146","East Asia",2006,0
+"147","East Asia",2008,39
+"148","East Asia",2009,186
+"149","East Asia",2010,7
+"150","East Asia",2011,19
+"151","East Asia",2012,27
+"152","East Asia",2013,60
+"153","East Asia",2014,322
+"154","East Asia",2015,123
+"155","East Asia",2016,32
+"156","East Asia",2017,16
+"157","Eastern Europe",1970,0
+"158","Eastern Europe",1971,0
+"159","Eastern Europe",1972,26
+"160","Eastern Europe",1973,1
+"161","Eastern Europe",1974,1
+"162","Eastern Europe",1977,1
+"163","Eastern Europe",1978,4
+"164","Eastern Europe",1979,0
+"165","Eastern Europe",1980,0
+"166","Eastern Europe",1981,0
+"167","Eastern Europe",1982,2
+"168","Eastern Europe",1983,2
+"169","Eastern Europe",1984,3
+"170","Eastern Europe",1985,2
+"171","Eastern Europe",1986,1
+"172","Eastern Europe",1987,0
+"173","Eastern Europe",1988,0
+"174","Eastern Europe",1989,6
+"175","Eastern Europe",1990,59
+"176","Eastern Europe",1991,273
+"177","Eastern Europe",1992,110
+"178","Eastern Europe",1994,49
+"179","Eastern Europe",1995,158
+"180","Eastern Europe",1996,167
+"181","Eastern Europe",1997,115
+"182","Eastern Europe",1998,109
+"183","Eastern Europe",1999,440
+"184","Eastern Europe",2000,402
+"185","Eastern Europe",2001,294
+"186","Eastern Europe",2002,518
+"187","Eastern Europe",2003,337
+"188","Eastern Europe",2004,608
+"189","Eastern Europe",2005,158
+"190","Eastern Europe",2006,59
+"191","Eastern Europe",2007,57
+"192","Eastern Europe",2008,101
+"193","Eastern Europe",2009,143
+"194","Eastern Europe",2010,235
+"195","Eastern Europe",2011,174
+"196","Eastern Europe",2012,179
+"197","Eastern Europe",2013,151
+"198","Eastern Europe",2014,1467
+"199","Eastern Europe",2015,790
+"200","Eastern Europe",2016,112
+"201","Eastern Europe",2017,101
+"202","Middle East & North Africa",1970,1
+"203","Middle East & North Africa",1971,7
+"204","Middle East & North Africa",1972,33
+"205","Middle East & North Africa",1973,7
+"206","Middle East & North Africa",1974,81
+"207","Middle East & North Africa",1975,60
+"208","Middle East & North Africa",1976,45
+"209","Middle East & North Africa",1977,43
+"210","Middle East & North Africa",1978,671
+"211","Middle East & North Africa",1979,366
+"212","Middle East & North Africa",1980,442
+"213","Middle East & North Africa",1981,772
+"214","Middle East & North Africa",1982,587
+"215","Middle East & North Africa",1983,756
+"216","Middle East & North Africa",1984,149
+"217","Middle East & North Africa",1985,723
+"218","Middle East & North Africa",1986,409
+"219","Middle East & North Africa",1987,581
+"220","Middle East & North Africa",1988,365
+"221","Middle East & North Africa",1989,480
+"222","Middle East & North Africa",1990,778
+"223","Middle East & North Africa",1991,544
+"224","Middle East & North Africa",1992,1879
+"225","Middle East & North Africa",1994,2065
+"226","Middle East & North Africa",1995,1020
+"227","Middle East & North Africa",1996,961
+"228","Middle East & North Africa",1997,4691
+"229","Middle East & North Africa",1998,1079
+"230","Middle East & North Africa",1999,672
+"231","Middle East & North Africa",2000,624
+"232","Middle East & North Africa",2001,907
+"233","Middle East & North Africa",2002,1175
+"234","Middle East & North Africa",2003,1063
+"235","Middle East & North Africa",2004,2558
+"236","Middle East & North Africa",2005,3918
+"237","Middle East & North Africa",2006,5032
+"238","Middle East & North Africa",2007,7180
+"239","Middle East & North Africa",2008,3467
+"240","Middle East & North Africa",2009,2982
+"241","Middle East & North Africa",2010,2663
+"242","Middle East & North Africa",2011,2651
+"243","Middle East & North Africa",2012,5033
+"244","Middle East & North Africa",2013,10164
+"245","Middle East & North Africa",2014,20080
+"246","Middle East & North Africa",2015,17854
+"247","Middle East & North Africa",2016,19205
+"248","Middle East & North Africa",2017,10819
+"249","North America",1970,34
+"250","North America",1971,20
+"251","North America",1972,11
+"252","North America",1973,46
+"253","North America",1974,18
+"254","North America",1975,56
+"255","North America",1976,30
+"256","North America",1977,15
+"257","North America",1978,15
+"258","North America",1979,23
+"259","North America",1980,18
+"260","North America",1981,8
+"261","North America",1982,13
+"262","North America",1983,8
+"263","North America",1984,16
+"264","North America",1985,334
+"265","North America",1986,1
+"266","North America",1987,1
+"267","North America",1988,3
+"268","North America",1989,18
+"269","North America",1990,8
+"270","North America",1991,15
+"271","North America",1992,8
+"272","North America",1994,98
+"273","North America",1995,240
+"274","North America",1996,98
+"275","North America",1997,231
+"276","North America",1998,8
+"277","North America",1999,20
+"278","North America",2000,5
+"279","North America",2001,3021
+"280","North America",2002,4
+"281","North America",2003,2
+"282","North America",2004,0
+"283","North America",2005,2
+"284","North America",2006,8
+"285","North America",2007,25
+"286","North America",2008,23
+"287","North America",2009,20
+"288","North America",2010,4
+"289","North America",2011,0
+"290","North America",2012,24
+"291","North America",2013,70
+"292","North America",2014,34
+"293","North America",2015,63
+"294","North America",2016,73
+"295","North America",2017,124
+"296","South America",1970,11
+"297","South America",1971,6
+"298","South America",1972,6
+"299","South America",1973,16
+"300","South America",1974,21
+"301","South America",1975,130
+"302","South America",1976,134
+"303","South America",1977,47
+"304","South America",1978,93
+"305","South America",1979,183
+"306","South America",1980,206
+"307","South America",1981,402
+"308","South America",1982,672
+"309","South America",1983,2279
+"310","South America",1984,2995
+"311","South America",1985,1700
+"312","South America",1986,1351
+"313","South America",1987,1450
+"314","South America",1988,2024
+"315","South America",1989,2339
+"316","South America",1990,1861
+"317","South America",1991,2238
+"318","South America",1992,1536
+"319","South America",1994,406
+"320","South America",1995,650
+"321","South America",1996,725
+"322","South America",1997,1317
+"323","South America",1998,599
+"324","South America",1999,293
+"325","South America",2000,430
+"326","South America",2001,593
+"327","South America",2002,369
+"328","South America",2003,191
+"329","South America",2004,89
+"330","South America",2005,152
+"331","South America",2006,93
+"332","South America",2007,83
+"333","South America",2008,109
+"334","South America",2009,136
+"335","South America",2010,58
+"336","South America",2011,43
+"337","South America",2012,180
+"338","South America",2013,160
+"339","South America",2014,157
+"340","South America",2015,128
+"341","South America",2016,87
+"342","South America",2017,101
+"343","South Asia",1970,4
+"344","South Asia",1972,0
+"345","South Asia",1973,0
+"346","South Asia",1974,0
+"347","South Asia",1975,6
+"348","South Asia",1976,1
+"349","South Asia",1977,0
+"350","South Asia",1978,5
+"351","South Asia",1979,92
+"352","South Asia",1980,40
+"353","South Asia",1981,37
+"354","South Asia",1982,74
+"355","South Asia",1983,75
+"356","South Asia",1984,693
+"357","South Asia",1985,668
+"358","South Asia",1986,1144
+"359","South Asia",1987,1989
+"360","South Asia",1988,2221
+"361","South Asia",1989,2893
+"362","South Asia",1990,2678
+"363","South Asia",1991,2515
+"364","South Asia",1992,2447
+"365","South Asia",1994,985
+"366","South Asia",1995,2133
+"367","South Asia",1996,1945
+"368","South Asia",1997,1815
+"369","South Asia",1998,1237
+"370","South Asia",1999,900
+"371","South Asia",2000,1378
+"372","South Asia",2001,1367
+"373","South Asia",2002,1288
+"374","South Asia",2003,802
+"375","South Asia",2004,1616
+"376","South Asia",2005,1365
+"377","South Asia",2006,2937
+"378","South Asia",2007,3686
+"379","South Asia",2008,3517
+"380","South Asia",2009,3565
+"381","South Asia",2010,3695
+"382","South Asia",2011,3725
+"383","South Asia",2012,6586
+"384","South Asia",2013,7070
+"385","South Asia",2014,8358
+"386","South Asia",2015,8300
+"387","South Asia",2016,7803
+"388","South Asia",2017,7664
+"389","Southeast Asia",1970,41
+"390","Southeast Asia",1971,2
+"391","Southeast Asia",1972,84
+"392","Southeast Asia",1973,0
+"393","Southeast Asia",1974,5
+"394","Southeast Asia",1975,1
+"395","Southeast Asia",1976,47
+"396","Southeast Asia",1977,102
+"397","Southeast Asia",1978,158
+"398","Southeast Asia",1979,260
+"399","Southeast Asia",1980,244
+"400","Southeast Asia",1981,201
+"401","Southeast Asia",1982,143
+"402","Southeast Asia",1983,122
+"403","Southeast Asia",1984,264
+"404","Southeast Asia",1985,459
+"405","Southeast Asia",1986,342
+"406","Southeast Asia",1987,404
+"407","Southeast Asia",1988,662
+"408","Southeast Asia",1989,606
+"409","Southeast Asia",1990,562
+"410","Southeast Asia",1991,574
+"411","Southeast Asia",1992,673
+"412","Southeast Asia",1994,390
+"413","Southeast Asia",1995,312
+"414","Southeast Asia",1996,270
+"415","Southeast Asia",1997,335
+"416","Southeast Asia",1998,54
+"417","Southeast Asia",1999,123
+"418","Southeast Asia",2000,459
+"419","Southeast Asia",2001,311
+"420","Southeast Asia",2002,396
+"421","Southeast Asia",2003,354
+"422","Southeast Asia",2004,281
+"423","Southeast Asia",2005,266
+"424","Southeast Asia",2006,260
+"425","Southeast Asia",2007,390
+"426","Southeast Asia",2008,403
+"427","Southeast Asia",2009,482
+"428","Southeast Asia",2010,322
+"429","Southeast Asia",2011,299
+"430","Southeast Asia",2012,453
+"431","Southeast Asia",2013,723
+"432","Southeast Asia",2014,702
+"433","Southeast Asia",2015,646
+"434","Southeast Asia",2016,639
+"435","Southeast Asia",2017,811
+"436","Sub-Saharan Africa",1970,1
+"437","Sub-Saharan Africa",1971,1
+"438","Sub-Saharan Africa",1972,0
+"439","Sub-Saharan Africa",1973,5
+"440","Sub-Saharan Africa",1974,4
+"441","Sub-Saharan Africa",1975,29
+"442","Sub-Saharan Africa",1976,8
+"443","Sub-Saharan Africa",1977,17
+"444","Sub-Saharan Africa",1978,112
+"445","Sub-Saharan Africa",1979,334
+"446","Sub-Saharan Africa",1980,82
+"447","Sub-Saharan Africa",1981,102
+"448","Sub-Saharan Africa",1982,68
+"449","Sub-Saharan Africa",1983,482
+"450","Sub-Saharan Africa",1984,1031
+"451","Sub-Saharan Africa",1985,211
+"452","Sub-Saharan Africa",1986,799
+"453","Sub-Saharan Africa",1987,648
+"454","Sub-Saharan Africa",1988,735
+"455","Sub-Saharan Africa",1989,1202
+"456","Sub-Saharan Africa",1990,660
+"457","Sub-Saharan Africa",1991,1347
+"458","Sub-Saharan Africa",1992,2442
+"459","Sub-Saharan Africa",1994,3232
+"460","Sub-Saharan Africa",1995,1320
+"461","Sub-Saharan Africa",1996,2558
+"462","Sub-Saharan Africa",1997,2188
+"463","Sub-Saharan Africa",1998,1437
+"464","Sub-Saharan Africa",1999,885
+"465","Sub-Saharan Africa",2000,1026
+"466","Sub-Saharan Africa",2001,1169
+"467","Sub-Saharan Africa",2002,1041
+"468","Sub-Saharan Africa",2003,555
+"469","Sub-Saharan Africa",2004,317
+"470","Sub-Saharan Africa",2005,379
+"471","Sub-Saharan Africa",2006,972
+"472","Sub-Saharan Africa",2007,1383
+"473","Sub-Saharan Africa",2008,1475
+"474","Sub-Saharan Africa",2009,1731
+"475","Sub-Saharan Africa",2010,830
+"476","Sub-Saharan Africa",2011,1237
+"477","Sub-Saharan Africa",2012,2996
+"478","Sub-Saharan Africa",2013,3857
+"479","Sub-Saharan Africa",2014,13351
+"480","Sub-Saharan Africa",2015,10763
+"481","Sub-Saharan Africa",2016,6652
+"482","Sub-Saharan Africa",2017,6712
+"483","Western Europe",1970,79
+"484","Western Europe",1971,112
+"485","Western Europe",1972,405
+"486","Western Europe",1973,295
+"487","Western Europe",1974,408
+"488","Western Europe",1975,299
+"489","Western Europe",1976,323
+"490","Western Europe",1977,195
+"491","Western Europe",1978,231
+"492","Western Europe",1979,301
+"493","Western Europe",1980,390
+"494","Western Europe",1981,177
+"495","Western Europe",1982,178
+"496","Western Europe",1983,163
+"497","Western Europe",1984,175
+"498","Western Europe",1985,261
+"499","Western Europe",1986,165
+"500","Western Europe",1987,194
+"501","Western Europe",1988,437
+"502","Western Europe",1989,119
+"503","Western Europe",1990,120
+"504","Western Europe",1991,170
+"505","Western Europe",1992,179
+"506","Western Europe",1994,105
+"507","Western Europe",1995,68
+"508","Western Europe",1996,43
+"509","Western Europe",1997,40
+"510","Western Europe",1998,54
+"511","Western Europe",1999,12
+"512","Western Europe",2000,42
+"513","Western Europe",2001,40
+"514","Western Europe",2002,9
+"515","Western Europe",2003,5
+"516","Western Europe",2004,196
+"517","Western Europe",2005,60
+"518","Western Europe",2006,6
+"519","Western Europe",2007,17
+"520","Western Europe",2008,3
+"521","Western Europe",2009,15
+"522","Western Europe",2010,5
+"523","Western Europe",2011,83
+"524","Western Europe",2012,11
+"525","Western Europe",2013,7
+"526","Western Europe",2014,5
+"527","Western Europe",2015,171
+"528","Western Europe",2016,238
+"529","Western Europe",2017,83
