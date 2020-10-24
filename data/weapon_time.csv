@@ -1,0 +1,401 @@
+"","weaptype1","iyear","fatalities"
+"1","Biological",1981,0
+"2","Biological",1984,0
+"3","Biological",1990,0
+"4","Biological",2000,2
+"5","Biological",2001,7
+"6","Biological",2003,0
+"7","Biological",2004,0
+"8","Biological",2005,0
+"9","Biological",2010,0
+"10","Biological",2011,0
+"11","Biological",2013,0
+"12","Chemical",1970,0
+"13","Chemical",1971,0
+"14","Chemical",1973,1
+"15","Chemical",1974,0
+"16","Chemical",1975,0
+"17","Chemical",1976,0
+"18","Chemical",1977,1
+"19","Chemical",1978,0
+"20","Chemical",1979,1
+"21","Chemical",1980,0
+"22","Chemical",1984,1
+"23","Chemical",1985,0
+"24","Chemical",1986,0
+"25","Chemical",1987,19
+"26","Chemical",1988,0
+"27","Chemical",1989,1
+"28","Chemical",1990,1
+"29","Chemical",1991,3
+"30","Chemical",1992,8
+"31","Chemical",1994,48
+"32","Chemical",1995,30
+"33","Chemical",1997,0
+"34","Chemical",1998,2
+"35","Chemical",1999,67
+"36","Chemical",2000,200
+"37","Chemical",2001,4
+"38","Chemical",2002,10
+"39","Chemical",2003,3
+"40","Chemical",2004,0
+"41","Chemical",2005,0
+"42","Chemical",2007,30
+"43","Chemical",2008,0
+"44","Chemical",2009,2
+"45","Chemical",2010,0
+"46","Chemical",2011,0
+"47","Chemical",2012,1
+"48","Chemical",2013,27
+"49","Chemical",2014,58
+"50","Chemical",2015,11
+"51","Chemical",2016,51
+"52","Chemical",2017,44
+"53","Explosives",1970,97
+"54","Explosives",1971,82
+"55","Explosives",1972,260
+"56","Explosives",1973,80
+"57","Explosives",1974,267
+"58","Explosives",1975,125
+"59","Explosives",1976,231
+"60","Explosives",1977,36
+"61","Explosives",1978,292
+"62","Explosives",1979,474
+"63","Explosives",1980,693
+"64","Explosives",1981,866
+"65","Explosives",1982,825
+"66","Explosives",1983,1505
+"67","Explosives",1984,853
+"68","Explosives",1985,1845
+"69","Explosives",1986,1106
+"70","Explosives",1987,1646
+"71","Explosives",1988,1527
+"72","Explosives",1989,1732
+"73","Explosives",1990,888
+"74","Explosives",1991,1273
+"75","Explosives",1992,1553
+"76","Explosives",1994,1299
+"77","Explosives",1995,1783
+"78","Explosives",1996,1572
+"79","Explosives",1997,1737
+"80","Explosives",1998,1998
+"81","Explosives",1999,1161
+"82","Explosives",2000,1465
+"83","Explosives",2001,1132
+"84","Explosives",2002,1799
+"85","Explosives",2003,1799
+"86","Explosives",2004,3598
+"87","Explosives",2005,4005
+"88","Explosives",2006,6021
+"89","Explosives",2007,8814
+"90","Explosives",2008,5593
+"91","Explosives",2009,5341
+"92","Explosives",2010,4955
+"93","Explosives",2011,4851
+"94","Explosives",2012,9133
+"95","Explosives",2013,14075
+"96","Explosives",2014,22040
+"97","Explosives",2015,19901
+"98","Explosives",2016,18575
+"99","Explosives",2017,13374
+"100","Fake Weapons",1972,0
+"101","Fake Weapons",1974,0
+"102","Fake Weapons",1979,0
+"103","Fake Weapons",1980,0
+"104","Fake Weapons",1989,0
+"105","Fake Weapons",1991,0
+"106","Fake Weapons",1994,0
+"107","Fake Weapons",1995,0
+"108","Fake Weapons",1996,0
+"109","Fake Weapons",1997,0
+"110","Fake Weapons",1998,0
+"111","Fake Weapons",2000,0
+"112","Fake Weapons",2003,0
+"113","Fake Weapons",2005,1
+"114","Fake Weapons",2008,0
+"115","Fake Weapons",2010,0
+"116","Fake Weapons",2011,0
+"117","Fake Weapons",2014,0
+"118","Fake Weapons",2017,0
+"119","Firearms",1970,45
+"120","Firearms",1971,80
+"121","Firearms",1972,289
+"122","Firearms",1973,270
+"123","Firearms",1974,246
+"124","Firearms",1975,481
+"125","Firearms",1976,397
+"126","Firearms",1977,374
+"127","Firearms",1978,618
+"128","Firearms",1979,1150
+"129","Firearms",1980,3293
+"130","Firearms",1981,3493
+"131","Firearms",1982,3832
+"132","Firearms",1983,7380
+"133","Firearms",1984,7367
+"134","Firearms",1985,4571
+"135","Firearms",1986,2213
+"136","Firearms",1987,4107
+"137","Firearms",1988,5324
+"138","Firearms",1989,6012
+"139","Firearms",1990,5891
+"140","Firearms",1991,6848
+"141","Firearms",1992,7250
+"142","Firearms",1994,5003
+"143","Firearms",1995,2914
+"144","Firearms",1996,2621
+"145","Firearms",1997,3375
+"146","Firearms",1998,1547
+"147","Firearms",1999,1577
+"148","Firearms",2000,1982
+"149","Firearms",2001,2746
+"150","Firearms",2002,1971
+"151","Firearms",2003,1189
+"152","Firearms",2004,1839
+"153","Firearms",2005,1937
+"154","Firearms",2006,3010
+"155","Firearms",2007,3487
+"156","Firearms",2008,2821
+"157","Firearms",2009,2051
+"158","Firearms",2010,2083
+"159","Firearms",2011,2669
+"160","Firearms",2012,5375
+"161","Firearms",2013,7207
+"162","Firearms",2014,16045
+"163","Firearms",2015,12223
+"164","Firearms",2016,9758
+"165","Firearms",2017,7933
+"166","Incendiary",1970,14
+"167","Incendiary",1971,1
+"168","Incendiary",1972,3
+"169","Incendiary",1973,1
+"170","Incendiary",1974,0
+"171","Incendiary",1975,0
+"172","Incendiary",1976,9
+"173","Incendiary",1977,3
+"174","Incendiary",1978,436
+"175","Incendiary",1979,39
+"176","Incendiary",1980,59
+"177","Incendiary",1981,21
+"178","Incendiary",1982,15
+"179","Incendiary",1983,10
+"180","Incendiary",1984,52
+"181","Incendiary",1985,114
+"182","Incendiary",1986,40
+"183","Incendiary",1987,37
+"184","Incendiary",1988,22
+"185","Incendiary",1989,73
+"186","Incendiary",1990,65
+"187","Incendiary",1991,66
+"188","Incendiary",1992,359
+"189","Incendiary",1994,56
+"190","Incendiary",1995,18
+"191","Incendiary",1996,65
+"192","Incendiary",1997,111
+"193","Incendiary",1998,26
+"194","Incendiary",1999,89
+"195","Incendiary",2000,72
+"196","Incendiary",2001,138
+"197","Incendiary",2002,559
+"198","Incendiary",2003,22
+"199","Incendiary",2004,23
+"200","Incendiary",2005,74
+"201","Incendiary",2006,34
+"202","Incendiary",2007,169
+"203","Incendiary",2008,105
+"204","Incendiary",2009,535
+"205","Incendiary",2010,48
+"206","Incendiary",2011,46
+"207","Incendiary",2012,84
+"208","Incendiary",2013,182
+"209","Incendiary",2014,637
+"210","Incendiary",2015,438
+"211","Incendiary",2016,304
+"212","Incendiary",2017,202
+"213","Melee",1970,0
+"214","Melee",1971,2
+"215","Melee",1972,5
+"216","Melee",1973,8
+"217","Melee",1974,4
+"218","Melee",1975,3
+"219","Melee",1976,12
+"220","Melee",1977,3
+"221","Melee",1978,11
+"222","Melee",1979,14
+"223","Melee",1980,17
+"224","Melee",1981,4
+"225","Melee",1982,82
+"226","Melee",1983,9
+"227","Melee",1984,95
+"228","Melee",1985,17
+"229","Melee",1986,34
+"230","Melee",1987,64
+"231","Melee",1988,70
+"232","Melee",1989,209
+"233","Melee",1990,192
+"234","Melee",1991,171
+"235","Melee",1992,237
+"236","Melee",1994,237
+"237","Melee",1995,199
+"238","Melee",1996,583
+"239","Melee",1997,3217
+"240","Melee",1998,558
+"241","Melee",1999,300
+"242","Melee",2000,200
+"243","Melee",2001,232
+"244","Melee",2002,188
+"245","Melee",2003,175
+"246","Melee",2004,38
+"247","Melee",2005,84
+"248","Melee",2006,100
+"249","Melee",2007,111
+"250","Melee",2008,256
+"251","Melee",2009,401
+"252","Melee",2010,133
+"253","Melee",2011,179
+"254","Melee",2012,133
+"255","Melee",2013,129
+"256","Melee",2014,494
+"257","Melee",2015,607
+"258","Melee",2016,348
+"259","Melee",2017,410
+"260","Other",1976,0
+"261","Other",1979,0
+"262","Other",1980,0
+"263","Other",1982,0
+"264","Other",1984,2
+"265","Other",1988,0
+"266","Other",1989,1
+"267","Other",1990,0
+"268","Other",1991,3
+"269","Other",1992,2
+"270","Other",1994,7
+"271","Other",1995,1
+"272","Other",1999,0
+"273","Other",2000,0
+"274","Other",2001,0
+"275","Other",2002,0
+"276","Other",2003,0
+"277","Other",2006,0
+"278","Other",2007,2
+"279","Other",2008,2
+"280","Other",2009,7
+"281","Other",2011,2
+"282","Other",2012,2
+"283","Other",2013,0
+"284","Other",2014,7
+"285","Other",2015,8
+"286","Other",2016,68
+"287","Other",2017,9
+"288","Radiological",1974,0
+"289","Radiological",1979,0
+"290","Radiological",1985,0
+"291","Radiological",2000,0
+"292","Radiological",2007,2
+"293","Sabotage Equipment",1970,0
+"294","Sabotage Equipment",1978,0
+"295","Sabotage Equipment",1979,0
+"296","Sabotage Equipment",1981,3
+"297","Sabotage Equipment",1982,0
+"298","Sabotage Equipment",1984,0
+"299","Sabotage Equipment",1986,25
+"300","Sabotage Equipment",1987,0
+"301","Sabotage Equipment",1988,2
+"302","Sabotage Equipment",1989,0
+"303","Sabotage Equipment",1990,0
+"304","Sabotage Equipment",1992,0
+"305","Sabotage Equipment",1995,1
+"306","Sabotage Equipment",1998,0
+"307","Sabotage Equipment",1999,0
+"308","Sabotage Equipment",2000,12
+"309","Sabotage Equipment",2001,0
+"310","Sabotage Equipment",2003,0
+"311","Sabotage Equipment",2005,0
+"312","Sabotage Equipment",2006,0
+"313","Sabotage Equipment",2007,0
+"314","Sabotage Equipment",2008,1
+"315","Sabotage Equipment",2009,0
+"316","Sabotage Equipment",2010,0
+"317","Sabotage Equipment",2011,1
+"318","Sabotage Equipment",2012,0
+"319","Sabotage Equipment",2013,4
+"320","Sabotage Equipment",2014,0
+"321","Sabotage Equipment",2015,0
+"322","Sabotage Equipment",2016,0
+"323","Sabotage Equipment",2017,34
+"324","Unknown",1970,14
+"325","Unknown",1971,8
+"326","Unknown",1972,9
+"327","Unknown",1973,10
+"328","Unknown",1974,22
+"329","Unknown",1975,8
+"330","Unknown",1976,25
+"331","Unknown",1977,39
+"332","Unknown",1978,102
+"333","Unknown",1979,422
+"334","Unknown",1980,338
+"335","Unknown",1981,464
+"336","Unknown",1982,382
+"337","Unknown",1983,540
+"338","Unknown",1984,2077
+"339","Unknown",1985,547
+"340","Unknown",1986,1552
+"341","Unknown",1987,609
+"342","Unknown",1988,262
+"343","Unknown",1989,108
+"344","Unknown",1990,110
+"345","Unknown",1991,62
+"346","Unknown",1992,333
+"347","Unknown",1994,1021
+"348","Unknown",1995,1157
+"349","Unknown",1996,2121
+"350","Unknown",1997,2483
+"351","Unknown",1998,557
+"352","Unknown",1999,198
+"353","Unknown",2000,470
+"354","Unknown",2001,461
+"355","Unknown",2002,277
+"356","Unknown",2003,129
+"357","Unknown",2004,245
+"358","Unknown",2005,230
+"359","Unknown",2006,215
+"360","Unknown",2007,209
+"361","Unknown",2008,375
+"362","Unknown",2009,928
+"363","Unknown",2010,606
+"364","Unknown",2011,490
+"365","Unknown",2012,765
+"366","Unknown",2013,648
+"367","Unknown",2014,5203
+"368","Unknown",2015,5645
+"369","Unknown",2016,5746
+"370","Unknown",2017,4398
+"371","Vehicle",1970,4
+"372","Vehicle",1979,0
+"373","Vehicle",1984,3
+"374","Vehicle",1985,0
+"375","Vehicle",1986,6
+"376","Vehicle",1987,0
+"377","Vehicle",1988,1
+"378","Vehicle",1989,16
+"379","Vehicle",1990,1
+"380","Vehicle",1991,3
+"381","Vehicle",1992,0
+"382","Vehicle",1994,19
+"383","Vehicle",1996,4
+"384","Vehicle",1997,1
+"385","Vehicle",1999,1
+"386","Vehicle",2001,3009
+"387","Vehicle",2002,1
+"388","Vehicle",2003,0
+"389","Vehicle",2004,0
+"390","Vehicle",2006,0
+"391","Vehicle",2008,4
+"392","Vehicle",2009,8
+"393","Vehicle",2010,2
+"394","Vehicle",2011,8
+"395","Vehicle",2012,4
+"396","Vehicle",2013,1
+"397","Vehicle",2014,6
+"398","Vehicle",2015,20
+"399","Vehicle",2016,21
+"400","Vehicle",2017,41
