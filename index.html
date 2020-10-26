@@ -11,6 +11,8 @@
 <body>
   
 <h1>Terrorist Attacks Since 1970</h1>
+<h2>Position of all Terrorist Attacks</h2>
+<div id="map"></div>
 
 <h2>Map of the Number of Attacks</h2>
 <div id="choropleth_map"></div>
@@ -22,12 +24,17 @@
 
   var spec2 = "https://raw.githubusercontent.com/dosh24/FIT3179/main/js/chloropleth_map.vg.json";
   var vis2 = "https://raw.githubusercontent.com/dosh24/FIT3179/main/js/linechart";
+  var vis3 = "https://raw.githubusercontent.com/dosh24/FIT3179/main/js/map_att";
   
   vegaEmbed('#choropleth_map', spec2).then(function(result) {
     // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
   }).catch(console.error);
   
   vegaEmbed('#line_chart', vis2).then(function(result) {
+    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+  }).catch(console.error);
+  
+  vegaEmbed('#map', vis3).then(function(result) {
     // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
   }).catch(console.error);
 </script>
