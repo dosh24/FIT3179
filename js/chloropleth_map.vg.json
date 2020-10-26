@@ -2,8 +2,8 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
   "background": "skyblue",
   "title": "Number of Terrorist Attacks in each Country Since 1970",
-  "width": 800,
-  "height": 400,
+  "width": 1000,
+  "height": 500,
   "data": {
     "url": "https://raw.githubusercontent.com/KaneSec/vega_lite/main/3_choropleth_map/js/ne_110m_admin_0_countries.topojson",
     "format": {"type": "topojson", "feature": "ne_110m_admin_0_countries"}
