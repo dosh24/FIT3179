@@ -19,12 +19,16 @@
 
 <h2>Line Chart Showing Fatalities in Each Region</h2>
 <div id="line_chart"></div>
+  
+ <h2>Use of Weapons Over Time</h2>
+<div id="weap_line"></div>
 
 <script type="text/javascript">
 
   var spec2 = "https://raw.githubusercontent.com/dosh24/FIT3179/main/js/chloropleth_map.vg.json";
   var vis2 = "https://raw.githubusercontent.com/dosh24/FIT3179/main/js/linechart";
   var vis3 = "https://raw.githubusercontent.com/dosh24/FIT3179/main/js/map_att";
+  var vis4 = "https://raw.githubusercontent.com/dosh24/FIT3179/main/js/weaponline";
   
   vegaEmbed('#choropleth_map', spec2).then(function(result) {
     // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
@@ -35,6 +39,10 @@
   }).catch(console.error);
   
   vegaEmbed('#map', vis3).then(function(result) {
+    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+  }).catch(console.error);
+  
+  vegaEmbed('#weap_line', vis4).then(function(result) {
     // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
   }).catch(console.error);
 </script>
