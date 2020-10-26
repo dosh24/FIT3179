@@ -1,0 +1,62 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "background": "skyblue",
+  "width": 1000,
+  "height": 500,
+  "title": "Locations of Terrorist Attacks Since 1970",
+  "projection": {"type": "equalEarth"},
+  "layer": [
+    {
+      "data": {
+        "url": "https://raw.githubusercontent.com/dosh24/FIT3179/main/js/topocust.json",
+        "format": {"type": "topojson", "feature": "custom"}
+      },
+      "mark": {"type": "geoshape", "fill": "lightgray", "stroke": "white"}
+    },
+    {
+      "data": {
+        "url": "https://raw.githubusercontent.com/dosh24/FIT3179/main/data/year_loc_death.csv"
+      },
+      "encoding": {
+        "longitude": {"field": "longitude", "type": "quantitative"},
+        "latitude": {"field": "latitude", "type": "quantitative"}
+      },
+      "layer": [
+        {
+          "mark": {"type": "circle"},
+          "encoding": {
+            "size": {
+              "field": "nkill",
+              "type": "quantitative",
+              "scale": {
+                "type": "threshold",
+                "domain": [0, 5, 20, 50, 100, 1000],
+                "range": [0.3, 1, 5, 10, 20, 60, 100]
+              },
+              
+              "title": "Fatalities"
+            },
+            "opacity":{"value":0.4},
+            "color": {
+              "field": "iyear",
+              "type": "quantitative",
+              "title": "Year",
+              "scale": {
+                "type": "threshold",
+                "domain": [1980, 1990, 2000, 2010],
+                "range": [
+                  "#ffffb2",
+                  "#fed976",
+                  "#feb24c",
+                  "#fd8d3c",
+                  "#f03b20",
+                  "#bd0026"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
