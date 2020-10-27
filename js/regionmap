@@ -3,7 +3,7 @@
   "background": "skyblue",
   "width": 800,
   "height": 300,
-  "title": "Locations of Terrorist Attacks Since 1970",
+  "title": "Terrorist Attacks in the Middle East Since 1970",
   "projection": {"type": "equirectangular"},
   "layer": [
     {
@@ -11,11 +11,15 @@
         "url": "https://raw.githubusercontent.com/dosh24/FIT3179/main/js/custom.geosmalltopo.json",
         "format": {"type": "topojson", "feature": "custom"}
       },
+      "layer":
+      [
+        {
       "mark": {"type": "geoshape", "fill": "lightgray", "stroke": "white"}
-    },
+      }
+      ]},
     {
       "data": {
-        "url": "https://raw.githubusercontent.com/dosh24/FIT3179/main/data/regiondata.csv"
+        "url": "https://raw.githubusercontent.com/dosh24/FIT3179/main/data/loc_deaths.csv"
       },
       "encoding": {
         "longitude": {"field": "longitude", "type": "quantitative"},
@@ -30,8 +34,8 @@
               "type": "quantitative",
               "scale": {
                 "type": "threshold",
-                "domain": [1, 5, 20, 50, 100, 1000],
-                "range": [1, 5, 10, 10, 20, 60, 100]
+                "domain": [1, 5, 20, 50, 80, 100],
+                "range": [1, 2, 10, 10, 20, 60, 100]
               },
               
               "title": "Fatalities"
@@ -53,10 +57,27 @@
                   "#bd0026"
                 ]
               }
-            }
+            },
+            "tooltip":{"field": "country_txt", "type": "nominal"}
           }
         }
       ]
+    },
+    {
+      "data": {
+        "url": "https://raw.githubusercontent.com/dosh24/FIT3179/main/data/latlongcountry.csv"
+      },
+      "encoding": {
+        "longitude": {"field": "longitude", "type": "quantitative"},
+        "latitude": {"field": "latitude", "type": "quantitative"}
+      },
+      "layer": [
+        
+          {"mark": {"type": "text","color":"black","size":"9"}, "encoding": {"text":{"field":"name","type": "nominal"}
+        }}
+      ]
     }
+    
   ]
+
 }
