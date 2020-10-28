@@ -1,9 +1,11 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "width": 500,
+  "height": 500,
   "description": "A bar chart with highlighting on hover and selecting on click. (Inspired by Tableau's interaction style.)",
   "data": 
       {
-        "url": "https://raw.githubusercontent.com/dosh24/FIT3179/main/data/middle.csv"
+        "url": "https://raw.githubusercontent.com/dosh24/FIT3179/main/data/middle_new.csv"
       },
   "selection": {
     "highlight": {"type": "single", "empty": "none", "on": "mouseover"},
@@ -11,13 +13,33 @@
   },
   "mark": {
     "type": "bar",
-    "fill": "#4C78A8",
     "stroke": "black",
     "cursor": "pointer"
   },
   "encoding": {
-    "x": {"field": "gname", "type": "ordinal"},
-    "y": {"field": "nkill", "type": "quantitative"},
+    "x": {"field": "country_txt", "type": "ordinal","title":"Terrorist Group"},
+    "y": {"field": "nkill", "type": "quantitative","title":"Number of People Killed","aggregate":"sum"},
+    "color": {
+              "field": "gname",
+              "type": "nominal",
+              "title": "Terrorist Group",
+  
+              "scale": {
+                "domain": ["Unknown", "Taliban", "Islamic State of Iraq (ISIL)", "Kurdistan Workers' Party (PKK)","Tehrik-i-Taliban Pakistan (TTP)","Other"],
+                "range": [
+                  "#e41a1c",
+                  "#377eb8",
+                  "#4daf4a",
+                  "#984ea3",
+                  "#ff7f00",
+                  "#ffff33"
+                ]
+              }
+            },
+    "tooltip":[{"field": "country_txt", "type": "nominal","title":"Country"},{"field": "nkill", "type": "quantitative","title":"Number of People Killed","aggregate":"sum"},{
+              "field": "gname",
+              "type": "nominal",
+              "title": "Terrorist Group"}],
     "fillOpacity": {
       "condition": {"selection": "select", "value": 1},
       "value": 0.3
