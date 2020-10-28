@@ -3,8 +3,20 @@
   "background": "skyblue",
   "width": 800,
   "height": 300,
-  "title": "Terrorist Attacks in the Middle East Since 1970",
+  "title": "Locations of Terrorist Attacks Since 1970",
   "projection": {"type": "equirectangular"},
+  "params": [
+      {
+      "name": "Year_Above",
+      "value": 0,
+      "bind": {
+        "input": "range",
+        "min": 1970,
+        "max": 2020,
+        "step": 2,
+        "name": "Max Year: "
+        }
+      }],
   "layer": [
     {
       "data": {
@@ -18,9 +30,12 @@
       }
       ]},
     {
-      "data": {
-        "url": "https://raw.githubusercontent.com/dosh24/FIT3179/main/data/loc_deaths.csv"
+      "data": 
+      {
+        "url": "https://raw.githubusercontent.com/dosh24/FIT3179/main/data/middle.csv"
       },
+      
+ "transform": [{"filter":"datum.iyear<=Year_Above"}],
       "encoding": {
         "longitude": {"field": "longitude", "type": "quantitative"},
         "latitude": {"field": "latitude", "type": "quantitative"}
@@ -40,21 +55,21 @@
               
               "title": "Fatalities"
             },
-            "opacity":{"value":0.4},
+            "opacity":{"value":0.5},
             "color": {
-              "field": "iyear",
-              "type": "quantitative",
-              "title": "Year",
+              "field": "gname",
+              "type": "nominal",
+              "title": "Terrorist Group",
+  
               "scale": {
-                "type": "threshold",
-                "domain": [1980, 1990, 2000, 2010],
+                "domain": ["Unknown", "Taliban", "Islamic State of Iraq (ISIL)", "Kurdistan Workers' Party (PKK)","Tehrik-i-Taliban Pakistan (TTP)","Other"],
                 "range": [
-                  "#ffffb2",
-                  "#fed976",
-                  "#feb24c",
-                  "#fd8d3c",
-                  "#f03b20",
-                  "#bd0026"
+                  "#e41a1c",
+                  "#377eb8",
+                  "#4daf4a",
+                  "#984ea3",
+                  "#ff7f00",
+                  "#ffff33"
                 ]
               }
             },
@@ -73,7 +88,7 @@
       },
       "layer": [
         
-          {"mark": {"type": "text","color":"black","size":"9"}, "encoding": {"text":{"field":"name","type": "nominal"}
+          {"mark": {"type": "text","color":"black","size":9}, "encoding": {"text":{"field":"name","type": "nominal"}
         }}
       ]
     }
