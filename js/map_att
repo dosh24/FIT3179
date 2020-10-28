@@ -12,7 +12,7 @@
       "bind": {
         "input": "range",
         "min": 1970,
-        "max": 2021,
+        "max": 2018,
         "step": 3,
         "name": "Max Year: "
         }},
@@ -22,7 +22,7 @@
       "bind": {
         "input": "range",
         "min": 1970,
-        "max": 2021,
+        "max": 2018,
         "step": 3,
         "name": "Min Year: "
         }}
