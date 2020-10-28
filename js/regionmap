@@ -12,11 +12,21 @@
       "bind": {
         "input": "range",
         "min": 1970,
-        "max": 2020,
+        "max": 2018,
         "step": 3,
         "name": "Max Year: "
         }
-      }],
+      },
+        {
+      "name": "Year_Below",
+      "value": 0,
+      "bind": {
+        "input": "range",
+        "min": 1970,
+        "max": 2018,
+        "step": 3,
+        "name": "Min Year: "
+        }}],
   "layer": [
     {
       "data": {
@@ -34,8 +44,8 @@
       {
         "url": "https://raw.githubusercontent.com/dosh24/FIT3179/main/data/middle.csv"
       },
-      
- "transform": [{"filter":"datum.iyear<=Year_Above"}],
+
+ "transform": [{"filter":"datum.iyear<=Year_Above"},{"filter":"datum.iyear>Year_Below"}],
       "encoding": {
         "longitude": {"field": "longitude", "type": "quantitative"},
         "latitude": {"field": "latitude", "type": "quantitative"}
