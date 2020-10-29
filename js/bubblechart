@@ -53,7 +53,7 @@
  }
  },
 
-  "mark": "circle",
+  "mark": {"type":"circle","stroke":"black","strokeWidth":1},
  "width": 1000,
   "encoding": {
     "x": {"field": "iyear", "type": "temporal", "title":"Year"},
