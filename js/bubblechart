@@ -1,0 +1,110 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+
+ "height": 400,
+ "title": "Deaths Due to Terrorist Attacks in each Region over Time",
+  "data": {"url": "https://raw.githubusercontent.com/dosh24/FIT3179/main/data/deaths_year_region.csv"},
+  "params": [
+ 
+ {
+ "name": "Region_selection",
+ "bind": {
+ "input": "select",
+ "options": [
+ null,
+ "Australasia & Oceania",
+ "Central America & Caribbean",
+ "East Asia",
+ "Eastern Europe",
+ "Middle East & North Africa",
+ "North America","South America",
+ "South Asia",
+ "Southeast Asia",
+ "Sub-Saharan Africa",
+ "Western Europe"
+ ],
+ "labels":[
+ "Show All",
+ "Australasia & Oceania",
+ "Central America & Caribbean",
+ "East Asia",
+ "Eastern Europe",
+ "Middle East & North Africa",
+ "North America","South America",
+ "South Asia",
+ "Southeast Asia",
+ "Sub-Saharan Africa",
+ "Western Europe"
+ 
+ ],
+ "name": "Region Selection: "
+ }
+ }
+
+  ],
+  "transform": [{"filter": "Region_selection == null || datum.region_txt == Region_selection"}],
+  
+
+  "selection": {
+ "continent_highlight": {
+ "type": "multi",
+ "fields": ["region_txt"],
+ "bind": "legend"
+ }
+ },
+
+  "mark": "circle",
+ "width": 1000,
+  "encoding": {
+    "x": {"field": "iyear", "type": "temporal", "title":"Year"},
+    "y": {"field": "region_txt", "type": "nominal","title":"Region"},
+    "color": {"field": "region_txt", "type": "nominal","title":"Region", "scale": {
+ "domain": [
+ "Australasia & Oceania",
+ "Central America & Caribbean",
+ "East Asia",
+ "Eastern Europe",
+ "Middle East & North Africa",
+ "North America","South America",
+ "South Asia",
+ "Southeast Asia",
+ "Sub-Saharan Africa",
+ "Western Europe"
+ ],
+ "range": [
+ "#a6cee3",
+"#1f78b4",
+"#b2df8a",
+"#33a02c",
+"#fb9a99",
+"#e31a1c",
+"#fdbf6f",
+"#ff7f00",
+"#cab2d6",
+"#6a3d9a",
+"#ffff99",
+"#b15928"
+ ]
+ }
+},
+"size": {
+      "field": "fatalities",
+      "type": "quantitative",
+      "title": "Annual Global Deaths",
+      "legend": {"clipHeight": 30},
+      "scale": {"rangeMax": 1200}
+    },
+    "opacity": {
+ "condition": {"selection": "continent_highlight", "value": 1},
+ "value": 0.2
+ }
+,
+"tooltip": [
+ {"field": "region_txt", "type": "nominal","title":"Region"},
+ {"field": "iyear", "type": "temporal","timeUnit":"year","title":"Year"},
+ {"field": "fatalities", "type": "quantitative", "format": ",","title":"Fatalities"}
+ ]
+
+  }
+}
+ 
