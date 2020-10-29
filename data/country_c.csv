@@ -20,7 +20,7 @@
 "19","Benin",8
 "20","Bhutan",6
 "21","Bolivia",314
-"22","Bosnia-Herzegovina",159
+"22","Bosnia and Herzegovina",159
 "23","Botswana",10
 "24","Brazil",273
 "25","Brunei",6
@@ -37,11 +37,12 @@
 "36","Colombia",8306
 "37","Comoros",5
 "38","Costa Rica",67
+"300","Congo",40
 "39","Croatia",57
 "40","Cuba",30
 "41","Cyprus",132
 "42","Czechia",32
-"43","Czechoslovakia",10
+"43","Slovakia",42
 "44","Dem. Rep. Congo",775
 "45","Denmark",41
 "46","Djibouti",22
@@ -65,9 +66,10 @@
 "64","Gabon",8
 "65","Gambia",3
 "66","Georgia",217
-"67","Germany",735
+"67","Germany",773
 "68","Ghana",19
 "69","Greece",1275
+"400","Greenland",0
 "70","Grenada",5
 "71","Guadeloupe",56
 "72","Guatemala",2050
@@ -87,7 +89,7 @@
 "86","Ireland",307
 "87","Israel",2183
 "88","Italy",1565
-"89","Ivory Coast",74
+"89","Cote d'Ivoire",74
 "90","Jamaica",36
 "91","Japan",402
 "92","Jordan",113
@@ -119,6 +121,7 @@
 "118","Moldova",21
 "119","Montenegro",5
 "120","Morocco",36
+"401","Mongolia",0
 "121","Mozambique",363
 "122","Myanmar",546
 "123","Namibia",151
@@ -161,7 +164,7 @@
 "160","Somalia",4142
 "161","South Africa",2016
 "162","South Korea",38
-"163","South Sudan",225
+"163","S. Sudan",225
 "164","South Vietnam",1
 "165","South Yemen",2
 "166","Soviet Union",78
