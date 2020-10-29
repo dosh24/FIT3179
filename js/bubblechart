@@ -90,7 +90,7 @@
 "size": {
       "field": "fatalities",
       "type": "quantitative",
-      "title": "Annual Global Deaths",
+      "title": "Annual Regional Deaths",
       "legend": {"clipHeight": 30},
       "scale": {"rangeMax": 1200}
     },
