@@ -21,7 +21,7 @@
     }
   ],
   "projection": {"type": "equalEarth"},
-  "mark": {"type": "geoshape"},
+  "mark": {"type": "geoshape","stroke":"darkgrey"},
   "encoding": {
     "color": {
       "field": "Density",
