@@ -53,11 +53,11 @@
  }
  },
 
-  "mark": "area",
+  "mark": {"type":"area","interpolate":"monotone"},
   "encoding": {
-    "x": {"field": "iyear", "type": "temporal", "title":"Year"},
-    "y": {"aggregate":"sum","field": "fatalities", "type": "quantitative","title":"Fatalities"},
-    "color": {"field": "region_txt", "type": "nominal","title":"Region", "scale": {
+    "x": {"field": "iyear", "type": "temporal", "title":"Year","axis":{"gridOpacity":0.3}},
+    "y": {"aggregate":"sum","field": "fatalities", "type": "quantitative","title":"Fatalities","axis":{"gridOpacity":0.3}},
+    "color": {"field": "region_txt", "type": "nominal","title":"Region","legend":{"offset":-500,"padding":10}, "scale": {
  "domain": [
  "Australasia & Oceania",
  "Central America & Caribbean",
