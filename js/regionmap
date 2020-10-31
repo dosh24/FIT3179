@@ -8,7 +8,7 @@
   "params": [
       {
       "name": "Year_Above",
-      "value": 0,
+      "value": 2018,
       "bind": {
         "input": "range",
         "min": 1970,
@@ -19,7 +19,7 @@
       },
         {
       "name": "Year_Below",
-      "value": 0,
+      "value": 1970,
       "bind": {
         "input": "range",
         "min": 1970,
@@ -45,7 +45,7 @@
         "url": "https://raw.githubusercontent.com/dosh24/FIT3179/main/data/middle.csv"
       },
 
- "transform": [{"filter":"datum.iyear<=Year_Above"},{"filter":"datum.iyear>Year_Below"}],
+ "transform": [{"filter":"datum.iyear<=Year_Above"},{"filter":"datum.iyear>=Year_Below"}],
       "encoding": {
         "longitude": {"field": "longitude", "type": "quantitative"},
         "latitude": {"field": "latitude", "type": "quantitative"}
@@ -62,6 +62,7 @@
                 "domain": [1, 5, 20, 50, 80, 100],
                 "range": [1, 2, 10, 10, 20, 60, 100]
               },
+              "legend":{"orient":"bottom-left"},
               
               "title": "Fatalities"
             },
@@ -81,7 +82,7 @@
                   "#ff7f00",
                   "#ffff33"
                 ]
-              }
+              },"legend":{"orient":"bottom-left"}
             },
             "tooltip":{"field": "country_txt", "type": "nominal"}
           }
