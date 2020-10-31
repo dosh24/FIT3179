@@ -34,7 +34,7 @@
                   "#ff7f00",
                   "#ffff33"
                 ]
-              }
+              },"legend":{"offset":-170,"padding":10}
             },
     "tooltip":[{"field": "country_txt", "type": "nominal","title":"Country"},{"field": "nkill", "type": "quantitative","title":"Number of People Killed","aggregate":"sum"},{
               "field": "gname",
@@ -63,6 +63,7 @@
   "config": {
     "scale": {
       "bandPaddingInner": 0.2
-    }
+    },
+    "background":"skyblue"
   }
 }
