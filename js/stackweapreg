@@ -1,0 +1,95 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "data": {"url": "https://raw.githubusercontent.com/dosh24/FIT3179/main/data/weap_reg.csv"},
+  "width":360,
+  "params": [
+ 
+ {
+ "name": "Weapon_selection",
+ "bind": {
+ "input": "select",
+ "options": [
+ null,
+ "Biological",
+ "Chemical",
+ "Explosives",
+ "Fake Weapons",
+ "Firearms",
+ "Incendiary",
+ "Melee",
+ "Other",
+ "Radioloical",
+ "Sabotage Equipment",
+ "Unknown",
+ "Vehicle"
+ ],
+ "labels":[
+ "Show All",
+"Biological",
+ "Chemical",
+ "Explosives",
+ "Fake Weapons",
+ "Firearms",
+ "Incendiary",
+ "Melee",
+ "Other",
+ "Radioloical",
+ "Sabotage Equipment",
+ "Unknown",
+ "Vehicle"
+ 
+ ],
+ "name": "Weapon Selection: "
+ }}],
+ 
+   "transform": [{"filter": "Weapon_selection == null || datum.weaptype1 == Weapon_selection"}],
+  
+
+  "selection": {
+ "weap_high": {
+ "type": "multi",
+ "fields": ["weaptype1"],
+ "bind": "legend"
+ },"select": {"type": "multi"},
+ "highlight": {"type": "single", "empty": "none", "on": "mouseover"}
+ },
+
+  "mark": "bar",
+  "background":"skyblue",
+  "encoding": {"opacity": {
+      "condition": {"selection": "weap_high", "value": 1},
+      "value": 0.2
+    },
+    "x": {"field": "region_txt","sort":"-y","title":"Region"},
+    "y": {"aggregate": "sum", "field": "nkill","title":"Number of Kills","axis":{"orient":"right"}},
+    "color": {"field": "weaptype1","title":"Weapon","legend":{"offset":-180},"scale":{"domain":["Biological",
+ "Chemical",
+ "Explosives",
+ "Fake Weapons",
+ "Firearms",
+ "Incendiary",
+ "Melee",
+ "Other",
+ "Radioloical",
+ "Sabotage Equipment",
+ "Unknown",
+ "Vehicle"],"range":[
+"#b2df8a",
+"#a6cee3",
+"#33a02c",
+"#fb9a99",
+"#e31a1c",
+"#fdbf6f",
+"#ff7f00",
+"#1f78b4",
+"#cab2d6",
+"#6a3d9a",
+"#ffff99",
+"#b15928"
+ ]}},
+    "tooltip":[ {"field": "region_txt", "type": "nominal","title":"Region"},
+ {"field": "weaptype1", "type": "nominal","title":"Weapon"},
+ {"field": "nkill","aggregate":"sum","type": "quantitative", "format": ",","title":"Fatalities"}]
+ 
+  }
+}
