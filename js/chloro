@@ -37,7 +37,8 @@
           "#bd0026"
         ]
       },
-      "title": "Density of Terrorist Attacks"
+      "title": "Density of Terrorist Attacks",
+      "legend":{"orient": "bottom-left","padding":20}
     },
     "tooltip": [
       {"field": "properties.NAME", "type": "nominal", "title": "Country"},
@@ -45,4 +46,3 @@
     ]
   }
 }
-
