@@ -61,7 +61,7 @@
       "value": 0.2
     },
     "x": {"field": "region_txt","sort":"-y","title":"Region"},
-    "y": {"aggregate": "sum", "field": "nkill","title":"Number of Kills","axis":{"orient":"right"}},
+    "y": {"aggregate": "sum", "field": "nkill","title":"Number of Kills","axis":{"orient":"right"},,"domain":[0,140000]}},
     "color": {"field": "weaptype1","title":"Weapon","legend":{"offset":-180},"scale":{"domain":["Biological",
  "Chemical",
  "Explosives",
