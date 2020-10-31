@@ -8,7 +8,7 @@
   "params": [
       {
       "name": "Year_Above",
-      "value": 0,
+      "value": 2018,
       "bind": {
         "input": "range",
         "min": 1970,
@@ -18,7 +18,7 @@
         }},
         {
       "name": "Year_Below",
-      "value": 0,
+      "value": 1970,
       "bind": {
         "input": "range",
         "min": 1970,
@@ -39,7 +39,7 @@
       "data": {
         "url": "https://raw.githubusercontent.com/dosh24/FIT3179/main/data/year_loc_death.csv"
       },
-      "transform": [{"filter":"datum.iyear<=Year_Above"},{"filter":"datum.iyear>Year_Below"}],
+      "transform": [{"filter":"datum.iyear<=Year_Above"},{"filter":"datum.iyear>=Year_Below"}],
       "encoding": {
         "longitude": {"field": "longitude", "type": "quantitative"},
         "latitude": {"field": "latitude", "type": "quantitative"}
