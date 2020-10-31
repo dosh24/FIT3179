@@ -39,24 +39,24 @@
       "data": {
         "url": "https://raw.githubusercontent.com/dosh24/FIT3179/main/data/year_loc_death.csv"
       },
-      "transform": [{"filter":"datum.iyear<=Year_Above"},{"filter":"datum.iyear>=Year_Below"}],
+      "transform": [{"filter":"datum.iyear<=Year_Above"},{"filter":"datum.iyear>=Year_Below"},{"filter":"datum['nkill']>0"}],
       "encoding": {
         "longitude": {"field": "longitude", "type": "quantitative"},
         "latitude": {"field": "latitude", "type": "quantitative"}
       },
       "layer": [
         {
-          "mark": {"type": "circle","color":"#f03b19"},
+          "mark": {"type": "circle"},
           "encoding": {
             "size": {
               "field": "nkill",
               "type": "quantitative",
               "scale": {
                 "type": "threshold",
-                "domain": [0, 5, 20, 50, 100, 1000],
-                "range": [2, 3, 4, 5, 6, 10, 15]
+                "domain": [10, 100],
+                "range": [4, 10, 15]
               },
-              "legend":{"offset":-100,"padding":10},
+              "legend":{"offset":-100,"padding":10,"fillColor":"white","strokeColor":"white"},
               "title": "Fatalities"
             },
             "opacity":{"field": "nkill",
@@ -64,20 +64,20 @@
               "type": "quantitative",
               "scale": {
                 "type": "threshold",
-                "domain": [0, 5, 20, 50, 100, 1000],
-                "range": [0.1, 0.2, 0.2, 0.3, 0.3, 0.6, 0.7]
+                "domain": [10, 100],
+                "range": [ 0.5, 0.5,  0.6]
               }},
               "color":{"field": "nkill",
             "title": "Fatalities",
               "type": "quantitative",
               "scale": {
                 "type": "threshold",
-                "domain": [0, 5, 20, 50, 100, 1000],
-                "range": ["#ffffb2","#fed976","#feb24c","#fd8d3c","#f03b20","#bd0026"]
+                "domain": [10, 100],
+                "range": ["#feb24c","#f03b20","#993404"]
               }},
                   
             "tooltip": [
-              {"field": "datum.iyear", "type": "temporal","timeUnit":"year","title":"Year"},
+              
               {"field": "nkill", "type": "quantitative", "format": ",","title":"Fatalities"}
  ]
           }
