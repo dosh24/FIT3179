@@ -2,21 +2,46 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
   "width": 360,
   "height": 500,
-  "description": "A bar chart with highlighting on hover and selecting on click. (Inspired by Tableau's interaction style.)",
   "data": 
       {
         "url": "https://raw.githubusercontent.com/dosh24/FIT3179/main/data/middle_new.csv"
       },
-  "selection": {
-    "highlight": {"type": "single", "empty": "none", "on": "mouseover"},
-    "select": {"type": "multi"}
-  },
+
+   "params": [
+ 
+ {
+ "name": "Group_selection",
+ "bind": {
+ "input": "select",
+ "options": [
+ null,
+ "Unknown", "Taliban", "Islamic State of Iraq (ISIL)", "Kurdistan Workers' Party (PKK)","Tehrik-i-Taliban Pakistan (TTP)","Other"
+ ],
+ "labels":[
+ "Show All",
+"Unknown", "Taliban", "Islamic State of Iraq (ISIL)", "Kurdistan Workers' Party (PKK)","Tehrik-i-Taliban Pakistan (TTP)","Other"
+ ],
+ "name": "Group Selection: "
+ }}],
+ 
+   "transform": [{"filter": "Group_selection == null || datum.gname == Group_selection"}],
+  "selection": { "group_high": {
+ "type": "multi",
+ "fields": ["gname"],
+ "bind": "legend"
+ },"select": {"type": "multi"},
+ "highlight": {"type": "single", "empty": "none", "on": "mouseover"}
+ },
+  
   "mark": {
     "type": "bar",
     "stroke": "black",
     "cursor": "pointer"
   },
-  "encoding": {
+  "encoding": {"opacity": {
+      "condition": {"selection": "group_high", "value": 1},
+      "value": 0.1
+    },
     "x": {"field": "country_txt", "type": "ordinal","title":"Terrorist Group"},
     "y": {"field": "nkill", "type": "quantitative","title":"Number of People Killed","aggregate":"sum"},
     "color": {
