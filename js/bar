@@ -42,7 +42,7 @@
       "value": 0.1
     },
     "x": {"field": "country_txt", "type": "ordinal","title":"Terrorist Group"},
-    "y": {"field": "nkill", "type": "quantitative","title":"Number of People Killed","aggregate":"sum"},
+    "y": {"field": "nkill", "type": "quantitative","title":"Number of People Killed","aggregate":"sum","scale":{"domain":[0,80000]}},
     "color": {
               "field": "gname",
               "type": "nominal",
