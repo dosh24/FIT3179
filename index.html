@@ -99,6 +99,7 @@
           <div class="description description-left">
             <h2>Deaths in Regions Over time</h2>
             <p>The bubble chart on the right shows the deaths in each region in for each year in the data. We can see that deaths due to terrorist attacks are minuet now compared to what they were during the 1980s. We can also see that the overall number of deaths is increasing since 2000 with the Middle East, South Asia and Sub-Saharan Africa the main areas of conflict. </p>
+            <div id="vis7"  class="vis-container"></div>
           </div>
         </div>
       <div class="pure-u-17-24">
@@ -143,6 +144,9 @@
   var specVis4 = "https://raw.githubusercontent.com/dosh24/FIT3179/main/js/weaponline";
   var specVis5 = "https://raw.githubusercontent.com/dosh24/FIT3179/main/js/regionmap";
   var specVis6 = "https://raw.githubusercontent.com/dosh24/FIT3179/main/js/bar";
+  var specVis7 = "https://raw.githubusercontent.com/dosh24/FIT3179/main/js/stackweapreg";        
+
+
 
   vegaEmbed('#vis1', specVis1, {"actions": false}).then(function(result) {
     // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
@@ -165,6 +169,10 @@
   }).catch(console.error);
   
   vegaEmbed('#vis6', specVis6, {"actions": false}).then(function(result) {
+    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+  }).catch(console.error);
+          
+  vegaEmbed('#vis7', specVis7, {"actions": false}).then(function(result) {
     // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
   }).catch(console.error);
 </script>
