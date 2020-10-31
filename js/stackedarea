@@ -1,6 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
-  "width": 600,
+  "width": 800,
  "height": 400,
  "title": "Deaths Due to Terrorist Attacks in each Region over Time",
   "data": {"url": "https://raw.githubusercontent.com/dosh24/FIT3179/main/data/deaths_year_region.csv"},
@@ -56,8 +56,8 @@
   "mark": {"type":"area","interpolate":"monotone"},
   "encoding": {
     "x": {"field": "iyear", "type": "temporal", "title":"Year","axis":{"gridOpacity":0.3}},
-    "y": {"aggregate":"sum","field": "fatalities", "type": "quantitative","title":"Fatalities","axis":{"gridOpacity":0.3}},
-    "color": {"field": "region_txt", "type": "nominal","title":"Region","legend":{"offset":-600,"padding":10}, "scale": {
+    "y": {"aggregate":"sum","field": "fatalities", "type": "quantitative","title":"Fatalities","axis":{"gridOpacity":0.3},"scale":{"type": "sqrt"}},
+    "color": {"field": "region_txt", "type": "nominal","title":"Region","legend":{"offset":-800,"padding":10}, "scale": {
  "domain": [
  "Australasia & Oceania",
  "Central America & Caribbean",
@@ -71,7 +71,7 @@
  "Western Europe"
  ],
  "range": [
- "#a6cee3",
+ "#ffffff",
 "#1f78b4",
 "#b2df8a",
 "#33a02c",
@@ -97,5 +97,7 @@
  {"field": "fatalities", "type": "quantitative", "format": ",","title":"Fatalities"}
  ]
 
-  }
+  },
+"config": {"background":"skyblue"}
 }
+
