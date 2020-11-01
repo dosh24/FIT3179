@@ -3,7 +3,7 @@
   "background": "skyblue",
   "width": 1050,
   "height": 500,
-  "title": "Locations of Terrorist Attacks Since 1970",
+  "title": "Locations of Deadly Terrorist Attacks Since 1970",
   "projection": {"type": "equalEarth"},
   "params": [
       {
