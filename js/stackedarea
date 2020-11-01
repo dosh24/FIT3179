@@ -1,7 +1,7 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
   "width": 1000,
- "height": 500,
+ "height": 550,
  "title": "Deaths Due to Terrorist Attacks in each Region over Time",
   "data": {"url": "https://raw.githubusercontent.com/dosh24/FIT3179/main/data/deaths_year_region.csv"},
   "params": [
