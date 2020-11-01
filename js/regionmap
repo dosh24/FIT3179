@@ -84,7 +84,7 @@
                 ]
               },"legend":{"orient":"bottom-left"}
             },
-            "tooltip":{"field": "country_txt", "type": "nominal"}
+            "tooltip":[{"field": "country_txt", "type": "nominal","title":"Country"},{"field":"nkill","type": "quantitative","title":"Fatalities"},{"field":"gname","type": "nominal","title":"Terrorist Group"},{"field":"iyear","type": "quantitative","title":"Year"}]
           }
         }
       ]
