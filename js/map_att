@@ -78,7 +78,7 @@
                   
             "tooltip": [
               
-              {"field": "nkill", "type": "quantitative", "format": ",","title":"Fatalities"}
+              {"field": "nkill", "type": "quantitative", "format": ",","title":"Fatalities"},{"field":"iyear","type":"quantitative","title":"Year"}
  ]
           }
         }
