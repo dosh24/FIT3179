@@ -41,7 +41,7 @@
       "condition": {"selection": "group_high", "value": 1},
       "value": 0.1
     },
-    "x": {"field": "country_txt", "type": "ordinal","title":"Terrorist Group"},
+    "x": {"field": "country_txt", "type": "ordinal","title":"Terrorist Group","sort":"-y"},
     "y": {"field": "nkill", "type": "quantitative","title":"Number of People Killed","aggregate":"sum","scale":{"domain":[0,80000]}},
     "color": {
               "field": "gname",
